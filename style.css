@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #c9d6ff;
+  background: linear-gradient(to right, #e2e2e2, #a985ff);
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+}
+
+.login {
+  margin: auto;
+  width: 350px;
+  height: 480px;
+  max-width: 90%;
+}
+
+.login form {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background: white;
+  border-radius: 7px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.login form h1 {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: black;
+  font-size: 40px;
+}
+
+.login form input {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  background-color: white;
+  border: 2px solid silver;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.login form button {
+  margin-left: 50%;
+  margin-top: 30px;
+  transform: translate(-50%);
+  height: 50px;
+  width: 100%;
+  border-radius: 5px;
+  color: white;
+  background-color: #512da8;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.login button:hover {
+  opacity: 75%;
+}
+
+.login form label {
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.signIn {
+  margin-top: 25px;
+  text-align: center;
+}
+
+/*                        */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #c9d6ff;
+  background: linear-gradient(to right, #e2e2e2, #a985ff);
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+}
+
+.signUp {
+  margin: auto;
+  width: 350px;
+  height: 650px;
+  max-width: 90%;
+}
+
+.signUp form {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background: white;
+  border-radius: 7px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.signUp form h1 {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 25px;
+  font-weight: 700;
+  color: black;
+  font-size: 40px;
+}
+
+.signUp form input {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  background-color: white;
+  border: 2px solid silver;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.signUp form button {
+  margin-left: 50%;
+  margin-top: 30px;
+  transform: translate(-50%);
+  height: 50px;
+  width: 100%;
+  border-radius: 5px;
+  color: white;
+  background-color: #512da8;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.signUp button:hover {
+  opacity: 75%;
+}
+
+.signUp form label {
+  font-size: 18px;
+  display: inline-block;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.info {
+  margin-bottom: 25px;
+}
+
+.signIn {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.forget {
+  margin: auto;
+  height: 510px;
+  width: 400px;
+}
+
+.forget form {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background: white;
+  border-radius: 7px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.forget h1 {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.forget input {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  background-color: white;
+  border: 2px solid silver;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.forget button {
+  margin-left: 50%;
+  margin-top: 30px;
+  transform: translate(-50%);
+  height: 50px;
+  width: 100%;
+  border-radius: 5px;
+  color: white;
+  background-color: #512da8;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.forget button:hover {
+  opacity: 75%;
+}
+
+.forget label {
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+#backLogin {
+  text-align: center;
+}
