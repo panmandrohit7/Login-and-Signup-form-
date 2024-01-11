@@ -1,3 +1,4 @@
+/*    Login In     */
 * {
   margin: 0;
   padding: 0;
@@ -82,7 +83,7 @@ a {
   text-align: center;
 }
 
-/*                        */
+/*     Sign Up       */
 
 * {
   margin: 0;
@@ -173,6 +174,8 @@ a {
   margin-top: 25px;
   text-align: center;
 }
+
+/*  Forget Password */
 
 .forget {
   margin: auto;
